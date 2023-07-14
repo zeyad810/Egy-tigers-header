@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#1f202af6 ;
+    color: rgba(233, 236, 236, 0.893);
+    
+    
+}.head1{
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head1 div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between; 
+    gap: 15px;   
+}
+.header2{
+    background-color: #1e1f29;
+
+}
+.head2{
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 100px;
+}
+form{
+    
+    
+    height: 65px;
+    display:flex ;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+}
+form input {
+    font-size: 13px;
+    outline: none;
+    padding: 6px;
+    outline: none;
+    border: none;
+    height: 31px;
+    
+}
+form button{
+    cursor: pointer;
+    padding: 5px;
+    height: 31px;
+    background-color: #bf0223;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    border-radius: 0px 15px 15px 0px;
+}
+select{
+    padding: 5px;
+    height: 31px;
+    border: none;
+    outline: none;
+    border-radius: 15px 0 0px 15px;
+    font-size: 13px;
+}
+.saved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head2 div ul{
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+}
+hr{
+    height: 3px;
+    background-color: #df0707;
+    border: none;
+}
+.nav{
+    background-color: rgb(238, 244, 244);
+}
+.links {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    gap: 25px   ;
+}
+.links ul a{
+    text-decoration: none;
+}
+.links ul a:hover{
+    color: #df0707;
+    text-decoration: underline;
+}
